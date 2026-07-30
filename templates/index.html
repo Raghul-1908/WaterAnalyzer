@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Water Governance Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <h1>Water Resource Management Bot</h1>
+
+    <button id="runBtn">Run Allocation</button>
+
+    <div class="card">
+        <h2>Allocations</h2>
+        <pre id="allocations"></pre>
+    </div>
+
+    <div class="card">
+        <h2>Anomalies</h2>
+        <pre id="anomalies"></pre>
+    </div>
+
+    <div class="card">
+        <h2>AI Governance Report</h2>
+        <div id="report"></div>
+    </div>
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
