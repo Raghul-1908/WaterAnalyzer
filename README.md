@@ -31,8 +31,6 @@ Water-Resource-Management-Bot/
 │
 ├── App.py
 ├── Water_engine.py
-├── recommendation.py
-├── requirements.txt
 └── README.md
 ```
 
