@@ -29,8 +29,8 @@ Water-Resource-Management-Bot/
 │   ├── zones.xlsx
 │   └── policies.xlsx
 │
-├── bot.py
-├── analyzer.py
+├── App.py
+├── Water_engine.py
 ├── recommendation.py
 ├── requirements.txt
 └── README.md
@@ -77,19 +77,7 @@ Water-Resource-Management-Bot/
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/water-resource-management-bot.git
-```
-
-Navigate to the project directory:
-
-```bash
-cd water-resource-management-bot
-```
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
+git clone https://github.com/Raghul-1908/WaterAnalyzer.git
 ```
 
 ---
@@ -99,7 +87,7 @@ pip install -r requirements.txt
 Run the application:
 
 ```bash
-python bot.py
+python App.py
 ```
 
 ---
